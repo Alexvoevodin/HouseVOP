@@ -1,0 +1,180 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #D4C17F;
+    text-decoration: none;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+p,
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.background {
+    background: #242B33;
+    background-size: cover;
+}
+
+.content {
+    width: 1110px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header {
+    background: url('../img/head_bg.jpg') center no-repeat;
+    background-size: cover;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.nav_link {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-left: 30px;
+}
+
+.header_title {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+    color: #D4C17F;
+    margin-top: 255px;
+}
+
+.mouse {
+    margin: 100px 0;
+}
+
+.head_adress {
+    padding: 100px;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.adr_wrap {
+    display: flex;
+}
+
+.adr_icon {
+    margin: 0 10px;
+}
+
+
+/*HEAD*/
+
+
+/*INFO*/
+
+.info_wrap {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.info_items {
+    display: flex;
+    justify-content: space-between;
+    padding: 145px 0;
+}
+
+.info_item {
+    margin-left: 56px;
+}
+
+.item_text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+    margin: 20px 0 0 0;
+}
+
+.number2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 400px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.02;
+    margin: 0;
+    position: absolute;
+    right: -125px;
+}
+
+
+/*INFO*/
+
+
+/*APARTAMENTS*/
+
+.apartaments_title {
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: #D4C17F;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.number3 {
+    position: absolute;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 400px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.02;
+    margin: 0;
+    top: -161px;
+    left: -169px;
+}
+
+.apartaments_items {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.apartament_item {
+    margin: 30px 0;
+    width: 40%;
+    position: relative;
+}
+
+.apartament_item_text {
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+}
+
+
+/*APARTAMENTS*/

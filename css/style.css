@@ -178,3 +178,18 @@ a {
 
 
 /*APARTAMENTS*/
+
+
+/*APARTAMENTS*/
+
+.form1 {
+    background: url('../img/img_form_bg.jpg');
+    background-size: cover;
+}
+
+.form_text_wrap {
+    text-align: left;
+}
+
+
+/*APARTAMENTS*/

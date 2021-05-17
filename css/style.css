@@ -179,7 +179,7 @@ a {
 /*APARTAMENTS*/
 
 
-/*APARTAMENTS*/
+/*form1*/
 
 .form1 {
     background: url('../img/img_form_bg.jpg');
@@ -193,7 +193,7 @@ a {
 
 .form_text_wrap {
     text-align: left;
-    width: 50%;
+    width: 70%;
 }
 
 .form1_title {
@@ -227,6 +227,19 @@ a {
     margin-left: 30px;
     background: #FFFFFF;
     opacity: 0.2;
-    padding: 15px 50px;
+    width: 255px;
+    height: 50px;
+    padding: 0;
 }
-/*APARTAMENTS*/
+
+/* .input_text {
+
+} */
+
+.form_button {
+    width: 255px;
+    height: 50px;
+    background: #D4C17F;
+    margin-left: 30px;
+}
+/*form1*/

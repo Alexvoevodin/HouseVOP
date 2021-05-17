@@ -161,12 +161,11 @@ a {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .apartament_item {
     margin: 30px 0;
-    width: 40%;
     position: relative;
 }
 
@@ -187,9 +186,47 @@ a {
     background-size: cover;
 }
 
-.form_text_wrap {
-    text-align: left;
+.form1_wrap {
+    display: flex;
+    justify-content: space-between;
 }
 
+.form_text_wrap {
+    text-align: left;
+    width: 50%;
+}
 
+.form1_title {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+
+    color: #D4C17F;
+}
+
+.form_text {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+.form1_form {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.input {
+    margin-left: 30px;
+    background: #FFFFFF;
+    opacity: 0.2;
+    padding: 15px 50px;
+}
 /*APARTAMENTS*/

@@ -253,6 +253,18 @@ a {
     height: 50px;
     background: #D4C17F;
     margin-left: 30px;
+
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 27px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+    border: none;
 }
 /*form1*/
 
@@ -375,4 +387,27 @@ a {
     margin: 10px 20px;
 }
 
+.footer_adress {
+    text-align: left;
+
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+}
+
+.foo_adr {
+    margin: 10px 0;
+}
+
+.social {
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 150px;
+}
 /*form2*/

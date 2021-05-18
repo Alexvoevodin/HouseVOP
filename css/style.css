@@ -181,6 +181,10 @@ a {
 
 /*form1*/
 
+.number4 {
+    margin: 0;
+}
+
 .form1 {
     background: url('../img/img_form_bg.jpg');
     background-size: cover;
@@ -242,4 +246,23 @@ a {
     background: #D4C17F;
     margin-left: 30px;
 }
+/*form1*/
+
+/*form1*/
+
+.map {
+
+}
+
+.map_title {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+
+    text-align: left;
+    color: #D4C17F;
+}
+
 /*form1*/

@@ -377,7 +377,7 @@ button {
 /*form2*/
 
 
-/*form2*/
+/*footer*/
 
 .footer {
     background: #2D343C;;
@@ -426,4 +426,23 @@ button {
     justify-content: space-between;
     max-width: 150px;
 }
-/*form2*/
+/*footer*/
+
+
+/*responsive*/
+
+@media (min-width: 992px) { 
+    .content {
+        width: auto;
+    }
+ }
+
+@media (min-width: 768px) { 
+
+ }
+
+@media (min-width: 576px) { 
+
+ }
+
+/*responsive*/

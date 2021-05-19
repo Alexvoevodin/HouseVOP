@@ -19,6 +19,22 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: #D4C17F;
+}
+
+a {
+    transition: all .4s ease;
+}
+
+button:hover {
+    background: #d6ba54;
+}
+
+button {
+    transition: all .4s ease;
+}
+
 .background {
     background: #242B33;
     background-size: cover;
